@@ -67,8 +67,8 @@ global.botname = ' 𝗥𝗔𝗶 | 𝗧𝗔𝗟𝗔𝗟 ٫' //ur bot name
 global.linkz = "https://chat.whatsapp.com/Bdsm1wW3CdD83mdSRTo11P" //your theme url which will be displayed on whatsapp
 global.websitex = "https://chat.whatsapp.com/Bdsm1wW3CdD83mdSRTo11P" //ur website to be displayed
 global.botscript = 'https://chat.whatsapp.com/Bdsm1wW3CdD83mdSRTo11P' //script link
-global.reactmoji = "💙🫶🏻" //ur menu react emoji
-global.themeemoji = "💙🫶🏻" //ur theme emoji
+global.reactmoji = "💙" //ur menu react emoji
+global.themeemoji = "💙" //ur theme emoji
 global.packname = "⍣𝗥𝗔𝗶 | 𝗧𝗔𝗟𝗔𝗟⍣" //ur sticker watermark packname
 global.author = "⍣💙 الجيــزانـي⍣" //ur sticker watermark author
 
@@ -105,14 +105,14 @@ global.antitags = true
 global.prefa = ['','!','.','🐦','🐤','🗿']
 global.sp = '⭔'
 global.mess = {
-    success: 'تم يروحي ✓',
-    admin: 'هذه الميزه للمشرفين فقط,روح غير حفاضتك!! ',
-    botAdmin: 'يجب أن يكون البوت مسؤولاً أولاً ٠ ما اشتغل عندكم بلاش!',
-    owner: 'هذه الميزة للمالك فقط!',
-    group: 'لميزة تستخدم فقط للمجموعات!',
+    success: 'تم ياقلبي✓',
+    admin: 'هذه الميزه للمشرفين فقط,روح غير حفاضتك وتصير مشرف!! ',
+    botAdmin: 'يجب أن يكون البوت مسؤولاً أولاً ٠ ما اشتغل عندكم بلاش او زوجوني وحده انام بحضنها !',
+    owner: 'هذي بس لصاحب البوت!',
+    group: 'لميزة تستخدم فقط للمجموعات روح سوي قروب مع اصحابك!',
     private: 'الميزه المستخدمة فقط للدردشة الخاصة!',
-    bot: 'هذه الميزة مخصصة للبوت فقط',
-    wait: 'استنى ياكلب...',
+    bot: 'هذي بس للبوت',
+    wait: 'استني ياروحي انتي واذا ولد استنى ياكلب...',
     linkm: 'أين الرابط?',
     error: 'ايرور!!',
     endLimit: 'Your Daily Limit Has Expired, The Limit Will Be Reset Every 12 Hours',
@@ -134,10 +134,10 @@ global.mess = {
    potionawal: 1
 }
 global.thumb = fs.readFileSync('./XeonMedia/theme/cheemspic.jpg')
-global.flaming = 'https://www6.flamingtext.com/net-fu/proxy_form.cgi?&imageoutput=true&script=sketch-name&doScale=true&scaleWidth=800&scaleHeight=500&fontsize=100&text='
-global.fluming = 'https://www6.flamingtext.com/net-fu/proxy_form.cgi?&imageoutput=true&script=fluffy-logo&doScale=true&scaleWidth=800&scaleHeight=500&fontsize=100&text='
-global.flarun = 'https://www6.flamingtext.com/net-fu/proxy_form.cgi?&imageoutput=true&script=runner-logo&doScale=true&scaleWidth=800&scaleHeight=500&fontsize=100&text='
-global.flasmurf = 'https://www6.flamingtext.com/net-fu/proxy_form.cgi?&imageoutput=true&script=smurfs-logo&doScale=true&scaleWidth=800&scaleHeight=500&fontsize=100&text='
+global.flaming = 'XeonMedia/theme/Cheems-bot.mp4")ht=500&fontsize=100&text='
+global.fluming = 'XeonMedia/theme/Cheems-bot.mp4")ht=500&fontsize=100&text='
+global.flarun = 'XeonMedia/theme/Cheems-bot.mp4")ht=500&fontsize=100&text='
+global.flasmurf = 'XeonMedia/theme/Cheems-bot.mp4")&text='
 let file = require.resolve(__filename)
 fs.watchFile(file, () => {
 	fs.unwatchFile(file)
